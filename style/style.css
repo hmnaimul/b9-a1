@@ -1,0 +1,105 @@
+.container{
+    width: 100%; height: 100%; 
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url('../resources/Banner\ Image.png'); 
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    align-items: center;
+}
+.banner-text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+#new{
+color: white;
+ font-size: 32px;
+ font-family: Merriweather;
+ font-weight: 400;
+ word-wrap: break-word;
+ height: 0px;
+ 
+}
+#next-text{
+    color: white;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 95px;
+    word-wrap: break-word
+}    
+.holiday{
+    height: 0;
+}
+.img{
+    justify-content: center;
+    align-items: center; 
+}
+.img{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        }
+.background{
+ background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%) , url('../resources/Vectorrr.png');
+             border-radius: 16px;
+            background-repeat: no-repeat;
+                width: 1320px;
+                height: 600px;
+                align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+              }
+        .party{
+                width: 642px;
+                height: 176px;
+                font-family :Merriweather-Black, Helvetica;
+                font-weight: 900;
+                color: #ffffff;
+                font-size: 64px;
+                letter-spacing: 7.04px;
+                line-height: 88px;
+                /* padding:126px 200px 123px 298px; */ 
+                padding-top: 126px;
+                padding-left: 126px;
+        }
+
+ .dolor{
+        width: 697px;
+        height: 60px;
+        font-family: "Inter-Regular", Helvetica;
+        font-weight: 400;
+        color: #ffffffcc;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 30px;
+        /* padding-top: 326px; */
+         padding-left: 126px;
+      }
+      .join-now{
+            width: 103px;
+            height: 24px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 0;
+            line-height: normal;
+            white-space: nowrap;
+            padding-left: 158px;
+            padding-bottom: 126px;
+          }
+          .group{
+            justify-content: right;
+            display: flex;
+            position: relative;
+            padding: auto, 0px ;
+          }
+          
