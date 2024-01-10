@@ -38,8 +38,6 @@ color: white;
 .img{
     justify-content: center;
     align-items: center; 
-}
-.img{
         display: flex;
         margin-left: auto;
         margin-right: auto;
@@ -51,7 +49,7 @@ color: white;
             background-repeat: no-repeat;
                 width: 1320px;
                 height: 600px;
-                align-items: center;
+                /* align-items: center; */
         margin-left: auto;
         margin-right: auto;
         margin-top: 150px;
@@ -97,9 +95,136 @@ color: white;
             padding-bottom: 126px;
           }
           .group{
-            justify-content: right;
             display: flex;
-            position: relative;
-            padding: auto, 0px ;
           }
-          
+          .block{
+            background-image: url('../resources/Rectangle\ 2.png');
+            width: 1320px;
+            height: 600px;
+            margin: auto;
+            margin-top: 130px;
+            align-items: center;
+             background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%); 
+          }
+          .place{
+            color: #FF0000;
+          }
+          .park{
+            font-size: 32px;
+            font-family: Inter;
+            font-weight: 600;
+            text-transform: capitalize;
+            line-height: 56px;
+            text-align: center;
+            padding-top: 100px;
+          }
+          .join{
+           padding-left: 32px; padding-right: 32px; padding-top: 16px; padding-bottom: 16px; background: #FF0000; 
+           border-radius: 8px; justify-content: center; align-items: center;
+           gap: 10px;
+            display: inline-flex;
+            text-align: center;
+             color: #ffffff;
+             margin-bottom: 110px;
+             margin-left: 576px;
+            
+          }
+          .rectangular-background{
+            background-color: white; /* Set your desired background color */
+            width: 1320px;
+            height: 450px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white; 
+            margin: auto;
+          }
+         .elc{
+            background-color: white;
+            width: 1320px;
+            height: 450px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white; 
+            margin: auto;
+            margin-top: 150px;
+         }
+        .circle{
+            align-items: center;
+            border: 10px solid red;
+            border-radius: 50%;
+            padding: 20px;
+           display: flex;
+           justify-content: center;
+        }
+        .all-text{
+        text-align: left;
+     justify-content: left;
+     padding-left: 0;
+     margin-left: 0;
+            
+        }
+        #best{
+            color: #FF0000; 
+            font-size: 24px;
+             font-family: Inter; 
+             font-weight: 500;
+             width: 207px;
+             height: 29px;
+top: 3122px;
+left: 140px;
+        }
+        #soon{
+            font-family: Merriweather;
+            color: #070211;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0;
+top: 3167px;
+left: 140px;
+        }
+.dollar{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0;
+color:#070211;
+width: 393px;
+height: 128px;
+top: 3249px;
+left: 140px;
+}
+.right-text{
+    align-items: right;
+    text-align: right;
+}
+#year{
+    color: #FF0000; font-size: 48px; font-family: Inter; font-weight: 700;
+    width: 126px;
+height: 58px;   
+top: 3130px;
+left: 1184.33px;
+justify-content: top;
+right: 0px;
+top: 0px;
+text-align: right;
+}
+.year-img{
+width: 140px; height: 140px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex;
+    align-items: bottom;
+    right: 0px;
+bottom: 0px;
+
+}
+#dollar-new{
+    width: 276px; color: rgba(7, 2, 17, 0.60); font-size: 20px; font-family: Inter; font-weight: 400; line-height: 32px;
+}
+    .new-one{
+        background-image: url('../resources/Rectangle\ 2.png');
+        background: #ffffff;
+        Width;1600px;
+Height:7335px
+    }
